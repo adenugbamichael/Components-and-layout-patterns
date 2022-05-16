@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:  border-box;
+}
+
+html{
+    font-family: "Rubik", sans-serif;
+    color: #444;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+    
+}
+
+header{
+    /* background-color: orangered; */
+    height: 100vh;
+    position: relative;
+   
+    background-image: linear-gradient(rgba(34, 34, 34, 0.6), rgba(34, 34, 34, 0.6)), url(hero.jpg);
+    background-size: cover;
+    color: #fff;
+}                   
+
+nav{
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+   padding-top: 32px;
+    /* background-color: #16828C; */
+} 
+
+.header-container{
+    width: 1200px;
+    position: absolute;
+
+    /* In relation to PARENT size */
+    left: 50%;
+    top: 50%;
+
+    /* In relation to ELEMENT sie */
+    transform: translate(-50%, -50%);
+
+    /* background-color:#E6A722; */
+    /* text-align: center; */
+}
+
+h1{
+    font-size: 52px;
+    margin-bottom: 32px;
+    line-height: 1.05;
+}
+
+.header-container-inner{
+    width: 50%;
+    /* background-color: #25459B; */
+}
+
+p{
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 48px;
+}
+
+.btn:link, .btn:visited{
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #e62c22;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 16px 32px;
+    border-radius: 9px;
+}
+
+h2{
+    font-size: 44px;
+    margin-bottom: 48px;
+}
+
+section{
+    padding: 96px 0;
+    background-color:#f7f7f7;
+   
+}
